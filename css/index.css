@@ -1,0 +1,173 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+background-image: url('../image/background.jpg');
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+.signstyle
+{
+	text-align: right;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.btn-sign-in {
+color:#000000;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:greenyellow;
+border:2px solid red;
+border-radius:100px;
+-webkit-border-radius:100px;
+}
+
+.btn-sign-in:hover {
+color:#ffffff;
+background-color:#0bacff;
+border:2px solid red;
+}
+
+.btn-sign-up {
+color:#000000;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:greenyellow;
+border:2px solid red;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+}
+
+.btn-sign-up:hover {
+color:#ffffff;
+background-color:#0488cd;
+border:2px solid red;
+}
+
+.btn-admin {
+color:#000000;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:greenyellow;
+border:2px solid red;
+border-radius:100px;
+-webkit-border-radius:100px;
+}
+
+.btn-admin:hover {
+color:#ffffff;
+background-color:#0bacff;
+border:2px solid red;
+}
+
+.aim {
+color:white;
+font-size:22px;
+padding: 20px;
+font-family:;
+font-weight: bold;
+text-shadow:8px 8px 8px #000000;
+}
+
+.vision {
+color:white;
+font-size: 22px;
+padding: 0px 20px 0px 20px;
+float: right;
+font-weight: bold;
+text-shadow:8px 8px 8px #000000;
+}
+
+.wrapper{
+background-color:greenyellow;
+width:100%;
+font-family: Fixedsys;
+font-size: 60px;
+color: orange;
+padding:0px 0px 0px 25px;
+text-shadow:3px 3px 3px #000000;
+}
+
+.wrapper span{
+width:100%;
+font-family: Stencil;
+font-size: 65px;
+color: orange;
+opacity: 0;
+padding:0px 0px 0px 0px;
+text-shadow:3px 3px 3px #000000;
+transform: translate(-155px, 0) scale(0.4);
+animation: animate .5s forwards;
+	animation-name: wrapper span;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+}
+
+.wrapper span:nth-of-type(2){
+	animation-delay:0.05s;
+}
+
+.wrapper span:nth-of-type(3){
+	animation-delay:0.1s;
+}
+
+.wrapper span:nth-of-type(4){
+	animation-delay:0.15s;
+}
+
+.wrapper span:nth-of-type(5){
+	animation-delay:0.2s;
+}
+
+.wrapper span:nth-of-type(6){
+	animation-delay:0.25s;
+}
+
+.wrapper span:nth-of-type(7){
+	animation-delay:0.3s;
+}
+
+.wrapper span:nth-of-type(8){
+	animation-delay:0.35s;
+}
+
+.wrapper span:nth-of-type(9){
+	animation-delay:0.4s;
+}
+
+.wrapper span:nth-of-type(10){
+	animation-delay:0.45s;
+}
+
+.wrapper span:nth-of-type(11){
+	animation-delay:0.5s;
+}
+
+@keyframes animate{
+	40%{
+		transform: translate(50px, 0) scale(.7);
+		opacity: 1;
+		color: #fff;
+	}
+	60%{
+		color: wheat;
+	}
+	80%{
+		transform: translate(0) scale(2);
+		opacity: 1;
+	}
+	100%{
+		transform: translate(0) scale(1);
+		opacity: 1;
+	}
+	
+}
