@@ -8,14 +8,14 @@ Xammp web server latest version.
 step 1: Extract file
 step 2: copy Prajaakeeya folder
 step 3: paste in xampp/htdocs
-step 4: open browser  and tye "http://localhost/Prajaakeeya/"
+step 4: open browser  and type "http://localhost/Prajaakeeya-main/"
 
 now connect Database
 
 DON'T FORGET TO IMPORT prajaakeeya.sql file AND RUN.
 WITHOUT THE DATABASE THE PROJECT WON'T RUN.
 
-step 5: open browser and tye "http://localhost/phpmyadmin/"
+step 5: open browser and type "http://localhost/phpmyadmin/"
 step 6: click on import tab
 step 7: click on browse file and select "prajaakeeya.sql" file 
 step 8: go 
@@ -34,9 +34,6 @@ OR SIMPLY SIGN UP TO CREATE NEW ACCOUNT!
 
 
 ***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US (8310069342)*****  
-
-
-***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
 
 
 #THANK YOU FOR WACHING OUR PROJECT
