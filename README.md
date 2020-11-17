@@ -1,6 +1,6 @@
 How to Run Project
 
-REQUIREMENT:
+REQUIREMENTS:
 
 Any Browser latest version.
 Xammp web server latest version.
